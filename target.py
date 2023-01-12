@@ -24,11 +24,10 @@ pygame.init()
 clock = pygame.time.Clock()
 
 #screen
-screen_width = 1024
-screen_height = 1024
+screen_width = 1280
+screen_height = 960
 screen = pygame.display.set_mode((screen_width,screen_height))
 background = pygame.image.load("BG.png")
-bg = pygame.transform.scale(background, (screen_width,screen_height))
 pygame.mouse.set_visible(False)
 
 #crosshair
